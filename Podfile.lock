@@ -1,9 +1,10 @@
 PODS:
   - Alamofire (5.6.1)
-  - Moya (15.0.0):
-    - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -17,7 +18,7 @@ PODS:
   - Then (3.0.0)
 
 DEPENDENCIES:
-  - Moya (~> 15.0)
+  - Moya/RxSwift (~> 15.0)
   - RxCocoa (~> 6.5)
   - RxSwift (~> 6.5)
   - RxViewController (~> 2.0)
@@ -45,6 +46,6 @@ SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
 
-PODFILE CHECKSUM: 3a9317aa3ded75e7d652fe2003622344f6fa6147
+PODFILE CHECKSUM: fe87d0f85b2623fbf71e21bf1dd9450cf9103e88
 
 COCOAPODS: 1.11.2
