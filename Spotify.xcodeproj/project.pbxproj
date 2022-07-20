@@ -18,6 +18,14 @@
 		EE11A23C28844A5F00BD4B15 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE11A23B28844A5F00BD4B15 /* AuthViewController.swift */; };
 		EE11A24128844B4100BD4B15 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE11A24028844B4100BD4B15 /* AuthViewModel.swift */; };
 		EE11A24328844C9800BD4B15 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE11A24228844C9800BD4B15 /* AuthStore.swift */; };
+		EE80532A2887FB7F001EEAE5 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE8053272887FB7F001EEAE5 /* NotoSansKR-Bold.otf */; };
+		EE80532B2887FB7F001EEAE5 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE8053282887FB7F001EEAE5 /* NotoSansKR-Medium.otf */; };
+		EE80532C2887FB7F001EEAE5 /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE8053292887FB7F001EEAE5 /* NotoSansKR-Light.otf */; };
+		EE80532E2887FB88001EEAE5 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE80532D2887FB88001EEAE5 /* NotoSans-SemiBold.ttf */; };
+		EE8053322887FC1E001EEAE5 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8053312887FC1E001EEAE5 /* NSAttributedString+Extension.swift */; };
+		EE8053342887FC59001EEAE5 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8053332887FC59001EEAE5 /* Font+Extension.swift */; };
+		EEC98BFF288810C1007D31AA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC98BFE288810C1007D31AA /* UIColor+Extension.swift */; };
+		EEC98C0128881117007D31AA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC98C0028881117007D31AA /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,15 @@
 		EE11A23B28844A5F00BD4B15 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		EE11A24028844B4100BD4B15 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		EE11A24228844C9800BD4B15 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		EE8053272887FB7F001EEAE5 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		EE8053282887FB7F001EEAE5 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		EE8053292887FB7F001EEAE5 /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		EE80532D2887FB88001EEAE5 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		EE8053312887FC1E001EEAE5 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		EE8053332887FC59001EEAE5 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		EE8053382887FCB8001EEAE5 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Regular.otf"; path = "../../../../../../Downloads/Noto_Sans_KR/NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		EEC98BFE288810C1007D31AA /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EEC98C0028881117007D31AA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +105,7 @@
 		EE0A0E0B28747EB70006BFC6 /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
-				EE11A23F28844B1000BD4B15 /* Asset */,
+				EE8053302887FC0A001EEAE5 /* Resource */,
 				EE11A23D28844AFA00BD4B15 /* Application */,
 				EE11A2302884413C00BD4B15 /* Repository */,
 				EE11A23828844A0900BD4B15 /* Domain */,
@@ -155,8 +172,41 @@
 			isa = PBXGroup;
 			children = (
 				EE0A0E1528747EB80006BFC6 /* Assets.xcassets */,
+				EEC98C0028881117007D31AA /* Colors.xcassets */,
 			);
 			path = Asset;
+			sourceTree = "<group>";
+		};
+		EE8053262887FB5C001EEAE5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EE8053382887FCB8001EEAE5 /* NotoSansKR-Regular.otf */,
+				EE8053272887FB7F001EEAE5 /* NotoSansKR-Bold.otf */,
+				EE8053292887FB7F001EEAE5 /* NotoSansKR-Light.otf */,
+				EE8053282887FB7F001EEAE5 /* NotoSansKR-Medium.otf */,
+				EE80532D2887FB88001EEAE5 /* NotoSans-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EE80532F2887FC05001EEAE5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EE8053312887FC1E001EEAE5 /* NSAttributedString+Extension.swift */,
+				EE8053332887FC59001EEAE5 /* Font+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EE8053302887FC0A001EEAE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EE80532F2887FC05001EEAE5 /* Extension */,
+				EE8053262887FB5C001EEAE5 /* Font */,
+				EE11A23F28844B1000BD4B15 /* Asset */,
+				EEC98BFE288810C1007D31AA /* UIColor+Extension.swift */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +269,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE80532B2887FB7F001EEAE5 /* NotoSansKR-Medium.otf in Resources */,
+				EE80532C2887FB7F001EEAE5 /* NotoSansKR-Light.otf in Resources */,
+				EE80532E2887FB88001EEAE5 /* NotoSans-SemiBold.ttf in Resources */,
 				EE0A0E1928747EB80006BFC6 /* LaunchScreen.storyboard in Resources */,
+				EE80532A2887FB7F001EEAE5 /* NotoSansKR-Bold.otf in Resources */,
 				EE0A0E1628747EB80006BFC6 /* Assets.xcassets in Resources */,
+				EEC98C0128881117007D31AA /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8053322887FC1E001EEAE5 /* NSAttributedString+Extension.swift in Sources */,
 				EE0A0E0D28747EB70006BFC6 /* AppDelegate.swift in Sources */,
 				EE11A24328844C9800BD4B15 /* AuthStore.swift in Sources */,
+				EEC98BFF288810C1007D31AA /* UIColor+Extension.swift in Sources */,
 				EE11A2342884466E00BD4B15 /* AuthService.swift in Sources */,
 				EE11A23C28844A5F00BD4B15 /* AuthViewController.swift in Sources */,
 				EE11A24128844B4100BD4B15 /* AuthViewModel.swift in Sources */,
+				EE8053342887FC59001EEAE5 /* Font+Extension.swift in Sources */,
 				EE0A0E0F28747EB70006BFC6 /* SceneDelegate.swift in Sources */,
 				EE11A2322884420E00BD4B15 /* AuthAPITarget.swift in Sources */,
 				EE11A237288448F800BD4B15 /* Auth.swift in Sources */,
