@@ -46,34 +46,34 @@ class AuthViewController: UIViewController {
         $0.numberOfLines = 0
     }
     private lazy var signUpButton = UIButton().then {
-        $0.configuration = self.configureButton(text: "가입하기",
+        $0.configuration = configureButton(text: "가입하기",
                                                 textColor: UIColor.black)
         $0.layer.cornerRadius = 25
         $0.backgroundColor = .spotifyGreen
     }
     private lazy var googleLoginButton = UIButton().then {
-        $0.configuration = self.configureButton(text: "Google로 계속하기",
+        $0.configuration = configureButton(text: "Google로 계속하기",
                                                 textColor: UIColor.white)
         $0.layer.cornerRadius = 25
         $0.layer.borderWidth = 2
         $0.layer.borderColor = UIColor(hex: 0x595959).cgColor
     }
     private lazy var facebookLoginButton = UIButton().then {
-        $0.configuration = self.configureButton(text: "Facebook으로 계속하기",
+        $0.configuration = configureButton(text: "Facebook으로 계속하기",
                                                 textColor: UIColor.white)
         $0.layer.cornerRadius = 25
         $0.layer.borderWidth = 2
         $0.layer.borderColor = UIColor(hex: 0x595959).cgColor
     }
     private lazy var appleLoginButton = UIButton().then {
-        $0.configuration = self.configureButton(text: "Apple로 계속하기",
+        $0.configuration = configureButton(text: "Apple로 계속하기",
                                                 textColor: UIColor.white)
         $0.layer.cornerRadius = 25
         $0.layer.borderWidth = 2
         $0.layer.borderColor = UIColor(hex: 0x595959).cgColor
     }
     private lazy var loginButton = UIButton().then {
-        $0.configuration = self.configureButton(text: "로그인하기",
+        $0.configuration = configureButton(text: "로그인하기",
                                                 textColor: UIColor.white)
         $0.layer.cornerRadius = 25
     }
